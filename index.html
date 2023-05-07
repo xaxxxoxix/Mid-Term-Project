@@ -8,6 +8,21 @@
       align-items: center;
       justify-content: center;
       flex-direction: row;
+      background-color: rgb(225, 225, 225);
+    }
+
+    .container1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container2 {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
     }
 
     img {
@@ -27,18 +42,13 @@
 
     h1 {
       font-size: 50px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     p {
       font-size: 18px;
-      margin-bottom: 10px;
-    }
-
-    .container1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      margin-bottom: 5px;
+      margin-top: 5px;
     }
 
     .buttons {
@@ -57,8 +67,12 @@
 	    height: 100px;
     }
 
+    iframe {
+      margin-left: 100px
+    }
+
     .buttons a:hover {
-      background-color: #fff;
+      background-color: gray;
     }
   </style>
 </head>
@@ -67,14 +81,32 @@
     <div class="container1">
       <img src="profile_pic.jpg" alt="profile_pic">
       <div class="buttons">
-      <a href="https://github.com/xaxxxoxix" target="_blank">Github<img src="Github_logo.png" alt="Github_pic"></a>
-      <a href="https://www.instagram.com/h0.bin/" target="_blank">Instagram<img src="Instagram_logo.png" alt="Instagram_pic"></a>
+      <a href="https://github.com/xaxxxoxix" target="_blank"><img src="Github_logo.png" alt="Github_pic"></a>
+      <a href="https://www.instagram.com/h0.bin/" target="_blank"><img src="Instagram_logo.png" alt="Instagram_pic"></a>
       </div>
     </div>
     <div class="info">
-      <h1>강호빈</h1>
-      <p>나이: 25 | 성별: Male</p>
-      <p>모모모</p>
+      <h1>Hobin Kang</h1>
+      <h2>Dankook Univ. Inderstrial Security</h2>
+      <p>Age: 25 | Sex: Male</p>
+      <p>contact: 010-6506-6642</p>
+      <p>E-mail: qqw1685@naver.com</p>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="info">
+    <h1 style="text-align: center;"> Faborite Youtuber </h1>
+    <h2 style="text-align: center;"> 침착맨</h2>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YceRElMemqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="container1">
+    <h1 style="margin-bottom: 5px; margin-top: 30px;">My CLUB: </h1>
+    <h1 style="margin-bottom: 5px; margin-top: 5px;"> DKUTC: DKU Tennis Club</h1>
+    <div class="info" style="margin-bottom: 50px;">
+      <img src="DKUTC1.jpg" alt="profile_pic">
+      <img src="DKUTC2.jpg" alt="profile_pic">
+      <img src="DKUTC3.jpg" alt="profile_pic">
     </div>
   </div>
 </body>
